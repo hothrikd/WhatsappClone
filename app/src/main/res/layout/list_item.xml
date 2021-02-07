@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?attr/selectableItemBackground"
+    >
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/userImgView"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/defaultavatar"
+        app:shapeAppearanceOverlay="@style/RoundedImageView" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/titleTv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:lines="1"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="Hothrik Deeti"
+                />
+            <TextView
+                android:id="@+id/timeTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart = "12dp"
+                android:ellipsize="end"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:visibility="visible"
+                tools:text="28/1/20"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/subTitleTv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:lines="1"
+                android:textSize="14sp"
+                tools:text="Hey, how are you"
+                />
+            <TextView
+                android:id="@+id/countTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:ellipsize="end"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:visibility="visible"
+                tools:text="6"
+                android:background="@drawable/count_background"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

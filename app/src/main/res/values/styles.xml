@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="RoundedImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="SplashTheme" parent="Theme.WhatsAppClone">
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowBackground">@color/purple_200</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="ChatShapeAppearence">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeBottomLeft">22dp</item>
+        <item name="cornerSizeBottomRight">8dp</item>
+        <item name="cornerSizeTopLeft">22dp</item>
+        <item name="cornerSizeTopRight">22dp</item>
+    </style>
+
+    <style name="CustomMediumShapeAppearance">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeBottomLeft">8dp</item>
+        <item name="cornerSizeBottomRight">22dp</item>
+        <item name="cornerSizeTopLeft">22dp</item>
+        <item name="cornerSizeTopRight">22dp</item>
+    </style>
+    <style name="RoundedImageViewSmall">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>
